@@ -1,12 +1,15 @@
 # Test Instructions
 
-## Command to run the User Registration Tests: "dotnet test --filter FullyQualifiedName~UserRegistrationService.Tests.UserRegistrationTests". 
+Command to run the User Registration Tests: **dotnet test --filter FullyQualifiedName~UserRegistrationService.Tests.UserRegistrationTests**.
+
 This command runs every test method under the test class UserRegistrationTests that tests for valid or invalid user information when attempting to register a user. These tests include: Testing regestering a user with valid user information is accepted, testing regestering a user with different invalid user information is accepted, and testing if a registered user is succesfully added to the registeredUsers list.
 
-## Command to run the User Validation Tests: "dotnet test --filter FullyQualifiedName~UserRegistrationService.Tests.UserValidationTests". 
+Command to run the User Validation Tests: **dotnet test --filter FullyQualifiedName~UserRegistrationService.Tests.UserValidationTests**.
+
 This command runs every test method under the test class UserValidationTests that tests for specific valid or invalid user information. These tests include: Testing weather a users username, password or email is accepted when regestering a new user.
 
-## Command to run the User Uniqueness Tests: "dotnet test --filter FullyQualifiedName~UserRegistrationService.Tests.UserUniquenessTests". 
+Command to run the User Uniqueness Tests: **dotnet test --filter FullyQualifiedName~UserRegistrationService.Tests.UserUniquenessTests**. 
+
 This command runs every test method under the test class UserUniquenessTests that tests if the user information is unique when compared to users already in the registeredUsers list. The tests include: Testign wether a duplicate username, email or both is accepted when registerring a new user.
 
 # Reflektionsrapport
