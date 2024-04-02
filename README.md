@@ -9,11 +9,11 @@ Command to run the User Uniqueness Tests: "dotnet test --filter FullyQualifiedNa
 
 # Reflektionsrapport
 
-Utmaningar och hur jag övervann dem
+Utmaningar och hur jag övervann dem:
 Det allra svåraste att förstå medan jag arbetade på projektet var hela konceptet med TDD (Test-Driven Development). Tanken att utveckla tester för kod och program som ännu inte skrivits var först svårt att greppa. Men efter att ha insett att testernas syfte är att kontrollera om koden uppfyller våra förväntningar blev allt klarare. Insikten att tester kan både "lyckas" och "misslyckas" och ändå anses vara godkända hjälpte mig att förstå TDD bättre.
 
-Vad jag lärde mig
+Vad jag lärde mig:
 Jag lärde mig att TDD är väldigt effektivt när man planerar alla tester noggrant innan man ens börjar skriva testkoden. Jag insåg att det ibland uppstår situationer där nya testfall dyker upp under processens gång, vilket kan bromsa programmeringshastigheten. Detta hände mig när jag hade färdigställt andra tester och kom på ytterligare tester som behövde implementeras.
 
-Överväganden och antaganden
+Överväganden och antaganden:
 En antagelse jag gjorde under utvecklingen var att "mer är bättre" när det kommer till antalet tester. Även om jag fortfarande är lite osäker på om detta alltid stämmer, känns det som en god strategi så länge testerna effektivt säkerställer att koden fungerar som avsett. För att hantera omfattningen av mina 16 tester försökte jag minska deras komplexitet genom att dela upp dem i tre olika kategorier (testklasser), vilket underlättade både organisationen och utförandet av testerna.
